@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/monkeybg" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Monkey Rescue"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingTop="40dp"
+        android:paddingBottom="30dp" />
+
+    <Button
+        android:id="@+id/bStart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Start Game" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="by SLEEPLisNight!"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="160dp" />
+
+</LinearLayout>
